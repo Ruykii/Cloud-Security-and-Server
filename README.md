@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly secured, in addition to restricting attacks to the network.
 - The load balancer prevents certain attacks such as DDoS attacks. The Jump box allows 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 -  This filebeat is to collect and hold logs that are written through the local syslog serve of Unix based distributions. 
 -  Metricbeat records of the operating system and services that are running on the Unix servers. 
 
