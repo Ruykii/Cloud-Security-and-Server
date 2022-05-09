@@ -35,5 +35,6 @@ Service users are dedicated to running their own specific service. Typically, wh
 	-A service account usually has a system UID less than 1000 and cannot log in to use a shell. 
 Chkrootkit and lynis for the homework, requires option and parameters 
 
-##Adding groups and users
+## Adding groups and users
+
 ![Adding groups and users](https://cdn.discordapp.com/attachments/792243138890694660/973287186709508156/unknown.png)
