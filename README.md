@@ -61,17 +61,18 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - Download a container program, we used docker.io to create containers 
-'''
-    sudo apt install docker.io
+```
+sudo apt install docker.io
     sudo systemctl status docker #This allows us to see if it is running.
         # If it is not running use: sudo systemctl start docker
-'''
+```
+
 - Then download a image using 'sudo docker pull'
 - We downloaded specific containers from a docker hub using: 
-'''
+```
   sudo docker pull cyberxsecurity/ubuntu:bionic
       sudo docker run -ti bionic/ubuntu bash #this will allow us to run it
-'''
+```
 - Now that we have created a container we can run ansible (by just writing ansible in to the command)
 - We added our private ip's of our webservers in to hosts, and changed the remote_user in ansible.cfg to match the admin username. This is a must if we want to connect our      playbooks to our webservers. 
 
@@ -101,6 +102,7 @@ SSH into the control node and follow the steps below:
 - If all steps are met then you will be able to run ansible-playbook name.yml
 
     - Troubleshooting notes: 
+    -
       - Make sure your virtual machines are on before running your playbooks. 
       - Check if you are using the write username and ip (must be private) in order for them to connect, if it does not match your information provided through your server then it will not run.
       - Adding the write terms for yaml file, playbook reads yaml and json files and will read it as json if you do not add the nesscary command in the beginning of the textfile.
