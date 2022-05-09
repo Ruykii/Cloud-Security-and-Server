@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
       - Check if you are using the write username and ip (must be private) in order for them to connect, if it does not match your information provided through your server then it will not run.
       - Adding the write terms for yaml file, playbook reads yaml and json files and will read it as json if you do not add the nesscary command in the beginning of the textfile.
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 - The playbook is provided in to our etc/ansible
 - We can change the path of our playbooks by checking our hosts and ansible cfg as well as hosts name in our yaml
 - If we want to see if our ELK is running our kibana we go to our browser and type in [public ip of elk]:5601/app/kibana
