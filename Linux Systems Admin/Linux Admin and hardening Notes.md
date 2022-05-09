@@ -23,7 +23,7 @@ Mode of the file is the rewrite attribute
 | sudo apt remove | remove an app | 
 
 ## File permissions: 
-[https://cdn.discordapp.com/attachments/792243138890694660/973286769317527592/unknown.png]
+![file permission](https://cdn.discordapp.com/attachments/792243138890694660/973286769317527592/unknown.png)
 
 Servers are computers that offer services to other computers. 
 	-A service is a function or capability that a machine makes available to another. 
