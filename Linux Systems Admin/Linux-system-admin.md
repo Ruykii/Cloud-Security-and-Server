@@ -112,4 +112,4 @@ Sudo lynis audit system
 
 ![Lynis output that hardens the system](https://cdn.discordapp.com/attachments/792243138890694660/973283575568928788/unknown.png)
 ![another image](https://cdn.discordapp.com/attachments/792243138890694660/973283648587579492/unknown.png)
-![another}(https://cdn.discordapp.com/attachments/792243138890694660/973283702740234301/unknown.png)
+![another](https://cdn.discordapp.com/attachments/792243138890694660/973283702740234301/unknown.png)
