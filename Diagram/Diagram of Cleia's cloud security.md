@@ -1,1 +1,0 @@
-Diagram of Cleia's cloud security 
