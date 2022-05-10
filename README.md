@@ -32,7 +32,8 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 -  This filebeat is to collect and hold logs that are written through the local syslog serve of Unix based distributions. 
 -  Metricbeat records of the operating system and services that are running on the Unix servers. 
 
-The configuration details of each machine may be found below.
+The configuration details of each machine may be found below. 
+[Virtual machine information](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/tree/main/Azure/Virtual%20Machines)
 
 | Name     | Function | IP Address | Operating System |
 |----------|------------|----------|------------------|
@@ -42,7 +43,7 @@ The configuration details of each machine may be found below.
 | ELK      | ELK server | 10.1.0.4 | Linux            |
 
 ### Access Policies
-
+[Inbound rules for the machines](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/tree/main/Azure/Inbound%20Security%20Group%20Rules)
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
@@ -92,7 +93,9 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 - Filebeats
+  [Proof of filebeats](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/screenshot%20and%20diagram/filebeatsuccess.PNG)
 - Metricbeat
+  [Proof of metricbeat](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/screenshot%20and%20diagram/metricbeatsusccess.PNG)
 
 These Beats allow us to collect the following information from each machine:
 - The beats allows us to see logs of what are written in the local syslong. As well as keeping a metric record of the operating system and services. 
