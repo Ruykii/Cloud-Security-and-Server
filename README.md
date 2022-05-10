@@ -10,9 +10,13 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 This document contains the following details:
 - Description of the Topologu
-- Access Policies
-- ELK Configuration
+- Access Policies 
+- [ELK Configuration](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/Ansible/pythonpentest.yml) 
   - Beats in Use
+    - [Filebeat playbook](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/Ansible/filebeatplaybook.yml)
+    - [Filebeat Config](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/Ansible/filebeat-conf.yml)
+    - [Metricbeat playbook](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/Ansible/metricbeatplaybook.yml)
+    - [Metricbeat config](https://github.com/Ruykii/ELK-Stack-Cloud-Monitor-/blob/main/Ansible/Metricbeat%20Config.yml)
   - Machines Being Monitored
 - How to Use the Ansible Build
 
